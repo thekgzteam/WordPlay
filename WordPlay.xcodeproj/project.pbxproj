@@ -14,6 +14,9 @@
 		FD066C791BA7F5DC0085DD61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD066C781BA7F5DC0085DD61 /* Images.xcassets */; };
 		FD066C7C1BA7F5DC0085DD61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD066C7A1BA7F5DC0085DD61 /* LaunchScreen.xib */; };
 		FD066C881BA7F5DC0085DD61 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD066C871BA7F5DC0085DD61 /* WordPlayTests.m */; };
+		FD066C951BA7FDB40085DD61 /* NameEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD066C941BA7FDB40085DD61 /* NameEnterViewController.m */; };
+		FD066C9A1BA7FDC30085DD61 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD066C971BA7FDC30085DD61 /* EnterAdjectiveViewController.m */; };
+		FD066C9B1BA7FDC30085DD61 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD066C991BA7FDC30085DD61 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		FD066C811BA7F5DC0085DD61 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD066C861BA7F5DC0085DD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD066C871BA7F5DC0085DD61 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		FD066C931BA7FDB40085DD61 /* NameEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameEnterViewController.h; sourceTree = "<group>"; };
+		FD066C941BA7FDB40085DD61 /* NameEnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameEnterViewController.m; sourceTree = "<group>"; };
+		FD066C961BA7FDC30085DD61 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		FD066C971BA7FDC30085DD61 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		FD066C981BA7FDC30085DD61 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		FD066C991BA7FDC30085DD61 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +92,15 @@
 			children = (
 				FD066C6F1BA7F5DC0085DD61 /* AppDelegate.h */,
 				FD066C701BA7F5DC0085DD61 /* AppDelegate.m */,
+				FD066C751BA7F5DC0085DD61 /* Main.storyboard */,
 				FD066C721BA7F5DC0085DD61 /* ViewController.h */,
 				FD066C731BA7F5DC0085DD61 /* ViewController.m */,
-				FD066C751BA7F5DC0085DD61 /* Main.storyboard */,
+				FD066C931BA7FDB40085DD61 /* NameEnterViewController.h */,
+				FD066C941BA7FDB40085DD61 /* NameEnterViewController.m */,
+				FD066C961BA7FDC30085DD61 /* EnterAdjectiveViewController.h */,
+				FD066C971BA7FDC30085DD61 /* EnterAdjectiveViewController.m */,
+				FD066C981BA7FDC30085DD61 /* ResultsViewController.h */,
+				FD066C991BA7FDC30085DD61 /* ResultsViewController.m */,
 				FD066C781BA7F5DC0085DD61 /* Images.xcassets */,
 				FD066C7A1BA7F5DC0085DD61 /* LaunchScreen.xib */,
 				FD066C6B1BA7F5DC0085DD61 /* Supporting Files */,
@@ -221,6 +236,9 @@
 			files = (
 				FD066C741BA7F5DC0085DD61 /* ViewController.m in Sources */,
 				FD066C711BA7F5DC0085DD61 /* AppDelegate.m in Sources */,
+				FD066C9A1BA7FDC30085DD61 /* EnterAdjectiveViewController.m in Sources */,
+				FD066C9B1BA7FDC30085DD61 /* ResultsViewController.m in Sources */,
+				FD066C951BA7FDB40085DD61 /* NameEnterViewController.m in Sources */,
 				FD066C6E1BA7F5DC0085DD61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
